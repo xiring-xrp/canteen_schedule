@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* login php */
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content form{
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.content form input{
+    padding: 8px 16px;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.content form label{
+    font-size: 18px;
+}
+
+.content form select{
+    padding: 3px;
+    margin: 5px;
+}
+
+.content .btn{
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+/* dashboard php */
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.container header .canteen img{
+    width: 100vw;
+    height: 150px;
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+
+.container section{
+    display: flex;
+    text-align: center;
+    border: 1px solid;
+}
+
+.container section .left-section{
+    width: 32%;
+    border-right: 1px solid;
+}
+
+.container section .section-center{
+    width: 34%;
+}
+
+.container section .right-section{
+    width: 34%;
+}
+
+.container main{
+    display: flex;
+}
+
+.container main .left-main-div{
+    text-align: center;
+    width: 32%;
+}
+
+.container main .left-main-div .items, .view{
+    padding: 50px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.container main .left-main-div .items a, .view a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.container main .right-main-div{
+    width: 68%;
+}
