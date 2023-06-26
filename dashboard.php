@@ -42,7 +42,7 @@
                     }
                 ?>
                 <div class="view">
-                    <a href="view.php">View</a>
+                    <a href="view.php">Menu</a>
                 </div>
             </div>
             <div class="right-main-div">
